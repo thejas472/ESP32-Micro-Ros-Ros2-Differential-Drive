@@ -51,7 +51,6 @@ Wi-Fi controlled ESP32 robot using **micro-ROS**, **ROS 2 Humble**, and **teleop
 - Communicates with ROS 2 via micro-ROS Agent over Wi-Fi  
 
 ### ⚙️ Arduino Code
-
 ```cpp
 #include <Arduino.h>
 #include <WiFi.h>
@@ -264,6 +263,16 @@ void loop() {
   server.handleClient();
   rclc_executor_spin_some(&executor, RCL_MS_TO_NS(100));
 }
+
+```
+## 🖥️ ROS 2 Terminal Preview
+
+Here’s a preview of the ROS 2 nodes, teleop, and camera feed running on the ESP32 robot:
+
+![Image](https://github.com/user-attachments/assets/dfd9d6f1-84a2-470f-9e95-18b915ee5649)
+
+
+
 
 
 
