@@ -72,7 +72,7 @@ Wi-Fi controlled ESP32 robot using **micro-ROS**, **ROS 2 Humble**, and **teleop
 // ==== Wi-Fi Credentials ====
 const char* ssid = "*****";
 const char* password = "*****";
-const char* agent_ip = "192.168.31.88";  // micro-ROS Agent
+const char* agent_ip = "******";  // micro-ROS Agent
 const int agent_port = 8888;
 
 // ==== micro-ROS Setup ====
@@ -90,7 +90,7 @@ int baseSpeed = 255;
 WebServer server(80);
 
 // ==== Phone IP Camera URL ====
-String cam_url = "http://192.168.31.185:8080/video";  // <— your phone IP
+String cam_url = "http://192.168*******:8080/video";  // <— your phone IP
 
 // ==== Motor Functions ====
 void moveForward() {
@@ -240,7 +240,7 @@ void setup() {
   Serial.println("Web server started.");
 
   // micro-ROS setup
-  set_microros_wifi_transports("Arakkis", "Narasimha1@god", "192.168.31.88", 8888);
+  set_microros_wifi_transports("****", "*****", "*****", 8888);
 
 Serial.println("micro-ROS transport initialized");
 
