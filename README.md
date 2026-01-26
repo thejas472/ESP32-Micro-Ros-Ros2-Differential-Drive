@@ -70,8 +70,8 @@ Wi-Fi controlled ESP32 robot using **micro-ROS**, **ROS 2 Humble**, and **teleop
 #define ENB 33
 
 // ==== Wi-Fi Credentials ====
-const char* ssid = "Arakkis";
-const char* password = "Narasimha1@god";
+const char* ssid = "*****";
+const char* password = "*****";
 const char* agent_ip = "192.168.31.88";  // micro-ROS Agent
 const int agent_port = 8888;
 
